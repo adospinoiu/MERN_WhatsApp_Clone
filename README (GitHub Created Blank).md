@@ -13,3 +13,5 @@
 #6 On the Firebase Dashboard establish the app as a </> (webapp) under the Project Settings
 
 #7 Created firebase.js file on the front-end (src folder) and took config-settings from the Firebase website and pasted them in. This will help with authentication
+
+#8 Establish the rough format of the app in the App.js file
