@@ -15,3 +15,5 @@
 #7 Created firebase.js file on the front-end (src folder) and took config-settings from the Firebase website and pasted them in. This will help with authentication
 
 #8 Establish the rough format of the app in the App.js file
+
+#9 Begin work on the first component on the front-end (sidebar)
