@@ -16,4 +16,8 @@
 
 #8 Establish the rough format of the app in the App.js file
 
-#9 Begin work on the first component on the front-end (sidebar)
+#9 Begin work on the components on the front-end (sidebar & chat)
+
+#10 In the .css for each component, establish how much of the screen each component will take up
+
+#12 Install Material-Ui/core in the front-end folder and then install Material-Ui/icons in the front-end folder as well
