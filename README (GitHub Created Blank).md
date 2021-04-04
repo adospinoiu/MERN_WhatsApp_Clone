@@ -23,3 +23,5 @@
 #12 Install Material-Ui/core in the front-end folder and then install Material-Ui/icons in the front-end folder as well
 
 #13 HINT: To make a Material-Ui/icon ..."click-able"... wrap the icon in a <IconButton> and make sure to import both the icon you are wrapping and import the 'IconButton' itself as well
+
+#14 Import the Icons and add css for the Icons at the top of the Sidebar component

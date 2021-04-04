@@ -13,7 +13,6 @@ import MoreVertIcon from '@material-ui/icons/MoreVert';
 function Sidebar() {
     return (
         <div className="sidebar">
-            <h5>This is the Sidebar</h5>
             <div className="sidebar__header">
                 <Avatar src='https://www.shutterstock.com/blog/wp-content/uploads/sites/5/2019/07/Man-Silhouette.jpg' />
 
