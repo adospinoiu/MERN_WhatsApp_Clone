@@ -27,3 +27,5 @@
 #14 Import the Icons and add css for the Icons at the top of the Sidebar component
 
 #15 Import and add the Search field at the top of the Sidebar
+
+#16 Complete the Sidebar-component and then move on to the Chat-component
