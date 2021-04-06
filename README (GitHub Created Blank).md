@@ -25,3 +25,5 @@
 #13 HINT: To make a Material-Ui/icon ..."click-able"... wrap the icon in a <IconButton> and make sure to import both the icon you are wrapping and import the 'IconButton' itself as well
 
 #14 Import the Icons and add css for the Icons at the top of the Sidebar component
+
+#15 Import and add the Search field at the top of the Sidebar
