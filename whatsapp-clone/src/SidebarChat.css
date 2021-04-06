@@ -1,7 +1,12 @@
 .sidebarChat {
     display: flex;
+    flex-direction: column;
     padding: 20px;
     cursor: pointer;
     border-bottom: 1px solid whitesmoke;
+}
+
+.sidebarChat:hover {
+    background-color: rgb(165, 160, 165);
 }
 
