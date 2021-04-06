@@ -1,4 +1,5 @@
-import { Avatar } from '@material-ui/core';
+import { Avatar, IconButton } from '@material-ui/core';
+import { AttachFile, MoreVert, SearchOutlined } from '@material-ui/icons';
 import React from 'react';
 import './Chat.css';
 
@@ -14,7 +15,15 @@ function Chat() {
                 </div>
 
                 <div className="chat__headerRight">
-                    
+                    <IconButton>
+                        <SearchOutlined />
+                    </IconButton>
+                    <IconButton>
+                        <AttachFile />
+                    </IconButton>
+                    <IconButton>
+                        <MoreVert />
+                    </IconButton>
                 </div>
             </div>
         </div>
