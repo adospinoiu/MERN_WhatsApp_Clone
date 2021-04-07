@@ -26,6 +26,10 @@ function Chat() {
                     </IconButton>
                 </div>
             </div>
+
+            <div className="chat__body">
+                <p>This is a test message</p>
+            </div>
         </div>
     )
 }

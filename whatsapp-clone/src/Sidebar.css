@@ -56,3 +56,7 @@
     background-color: whitesmoke;
     overflow: scroll;
 }
+
+.sidebar__chats > h1 {
+    padding-left: 20px;
+}
