@@ -80,3 +80,13 @@
     padding: 10px;
     border: none;
 }
+
+/* This hides the button, but can use ENTER on the keyboard */
+.chat__footer > form > button {
+    display: none;
+}
+
+.chat__footer > .MuiSvgIcon-root {
+    padding: 10px;
+    color: gray;
+}
