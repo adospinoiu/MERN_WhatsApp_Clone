@@ -33,3 +33,5 @@
 #17 Chat-component; work on header-section which includes the Avatar, info, and icons
 
 #18 Chat-component; work on body-section which contains the actual conversations or messages
+
+#19 Chat-component: work on footer-section which includes the smiley, type box, and submit button
