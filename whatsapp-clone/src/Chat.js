@@ -40,11 +40,6 @@ function Chat() {
                     <span className="chat__timestamp">{new Date().toUTCString()}</span>                   
                 </p>
 
-                <p className="chat__message">
-                    <span className="chat__name">Alex </span>
-                    This is a test message 
-                    <span className="chat__timestamp">{new Date().toUTCString()}</span>                   
-                </p>
             </div>           
         </div>
     )
