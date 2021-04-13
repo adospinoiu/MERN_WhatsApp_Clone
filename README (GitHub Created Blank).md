@@ -41,10 +41,12 @@
 #21 Start by typing 'npm-init' in the terminal to start installing Node.js on the back-end
 >>> Entry point should be entered as 'server.js'
 
-#22 In the pacakge.json file (created after you run npm-init) make sure to add a new script:  "start": "node server.js"
+#22 In the pacakge.json file (created after you run npm-init) make sure to add a new script:  "start": "node server.js". Also add in the main section "type": "module" which allows you to use the ES6 convention on the back-end with node.js
 
 #23 Install Express and Mongoose on the back-end
 
 #24 Set-up Mongod-Atlas so that the database is established
 
 #25 Create the basic outline in server.js of how the application back-end will run
+
+#26 Write the first api-route to check for functionality (i.e. '/')
