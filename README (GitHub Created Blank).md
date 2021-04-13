@@ -35,3 +35,10 @@
 #18 Chat-component; work on body-section which contains the actual conversations or messages
 
 #19 Chat-component: work on footer-section which includes the smiley, type box, and submit button
+
+#20 Front-end complete now. Start working on the Back-end
+
+#21 Start by typing 'npm-init' in the terminal to start installing Node on the back-end
+>>> Entry point should be entered as 'server.js'
+
+#22 In the pacakge.json file (created after you run npm-init) make sure to add a new script:  "start": "node server.js"
