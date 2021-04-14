@@ -58,3 +58,5 @@
 #29 Set-up access to MongoDB-Atlas 'cluster connect'
 
 #30 Add db-conifg code to server.js to be able to connect to the database
+
+#31 Create db-schema with new file of dbMessages.js
