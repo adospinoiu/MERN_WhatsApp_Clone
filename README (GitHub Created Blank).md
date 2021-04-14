@@ -50,3 +50,11 @@
 #25 Create the basic outline in server.js of how the application back-end will run
 
 #26 Write the first api-route to check for functionality (i.e. '/')
+
+#27 Set-up access to MongoDB-Atlas database access
+
+#28 Set-up access to MongoDB-Atlas network access
+
+#29 Set-up access to MongoDB-Atlas 'cluster connect'
+
+#30 Add db-conifg code to server.js to be able to connect to the database
