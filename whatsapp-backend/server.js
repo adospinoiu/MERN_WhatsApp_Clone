@@ -1,6 +1,7 @@
 // Importing
 import express from 'express';
 import mongoose from 'mongoose';
+import dbMessages from './dbMessages';
 
 // App config
 const app = express();
@@ -22,6 +23,18 @@ mongoose.connect(connection_url, {
 // API Routes
 app.get('/', (req, res) => {
     res.status(200).send('Hello World')
+});
+
+app.post('/api/vi/messages/new', (req, res) => {
+    const dbMessage = req.body
+
+    Messages.create(dbMessage , (err, data) => {
+        if (err) {
+            res.status(500).send(err)
+        } else {
+            res.status(201).send(data)
+        }
+    })
 })
 
 // Listener
