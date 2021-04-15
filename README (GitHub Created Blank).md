@@ -62,3 +62,5 @@
 #31 Create db-schema with new file of dbMessages.js
 
 #32 Create the POST-api that will send the data to the database
+
+#33 DONT FORGET the middleware in the server.js file 'app.use(express.json())
