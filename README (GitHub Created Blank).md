@@ -64,3 +64,9 @@
 #32 Create the POST-api that will send the data to the database
 
 #33 DONT FORGET the middleware in the server.js file 'app.use(express.json())
+
+#34 Create the GET-api that will get the data back from the database
+
+#35 Install PUSHER (on the back-end with 'npm i pusher' and start working with it 
+
+#36 DONT FORGET to import PUSHER from 'pusher' on the server.js file (at the top)

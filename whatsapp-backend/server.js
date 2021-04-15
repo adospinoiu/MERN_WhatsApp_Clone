@@ -2,6 +2,7 @@
 import express from 'express';
 import mongoose from 'mongoose';
 import Messages from './dbMessages.js';
+import Pusher from 'pusher';
 
 // App config
 const app = express();
@@ -19,6 +20,13 @@ mongoose.connect(connection_url, {
     useUnifiedTopology: true
 })
 
+const pusher = new Pusher({
+    appId: "1188685",
+    key: "d7b5fb7d55c650625560",
+    secret: "37d1cd9d91f0cee4cffe",
+    cluster: "us3",
+    useTLS: true
+});
 // ????
 
 // API Routes
