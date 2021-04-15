@@ -70,3 +70,5 @@
 #35 Install PUSHER (on the back-end with 'npm i pusher' and start working with it 
 
 #36 DONT FORGET to import PUSHER from 'pusher' on the server.js file (at the top)
+
+#37 Test to make sure that PUSHER gets information back from MongoDB every-time the database gets a new record.
