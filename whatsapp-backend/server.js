@@ -11,6 +11,13 @@ const port = process.env.PORT || 9000;
 // Middleware
 app.use(express.json());
 
+//Security Warning
+app.use((req, res, next) => {
+    res.setHeader('Access-Control-Allow-Origin', '*');
+    res.setHeader('Access-Control-Allow-Headers', '*');
+    next();
+})
+
 // DB Config
 const connection_url = 'mongodb+srv://controller:rLtidIHwxZPp06ma@cluster0.i8ndy.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
 
@@ -42,7 +49,7 @@ db.once('open', () => {
         if (change.operationType === 'insert') {
             const messageDetails = change.fullDocument;
             pusher.trigger('messages', 'inserted', {
-                name: messageDetails.user,
+                name: messageDetails.name,
                 message: messageDetails.message,
             });
         } else {
