@@ -80,3 +80,9 @@
 #40 Include a useEffect-hook on the front-end in app.js
 
 #41 On the front-end add code to app.js (the useEffect-hook) and in the hook, this code comes from Pusher webpage
+
+#42 On the front-end install 'axios' to be able to make a call to the database
+
+#43 useState is necessary on the front-end in app.js
+
+#44 The database now updates and Pusher indicates there's been an update by
