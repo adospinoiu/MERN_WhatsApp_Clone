@@ -78,3 +78,5 @@
 #39 On the front-end install 'pusher-js'
 
 #40 Include a useEffect-hook on the front-end in app.js
+
+#41 On the front-end add code to app.js (the useEffect-hook) and in the hook, this code comes from Pusher webpage
