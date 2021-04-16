@@ -5,6 +5,11 @@ import React, { useEffect } from 'react';
 import Pusher from 'pusher-js';
 
 function App() {
+  useEffect(() => {
+
+    
+  }, [])
+
   //Security Warning. Got to figure it out.
   useEffect(() => {
     const pusher = new Pusher('d7b5fb7d55c650625560', {
