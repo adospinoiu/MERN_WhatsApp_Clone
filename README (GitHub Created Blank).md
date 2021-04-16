@@ -74,3 +74,7 @@
 #37 Test to make sure that PUSHER gets information back from MongoDB every-time the database gets a new record.
 
 #38 And now, link up the back-end with the front-end to get the whole application working
+
+#39 On the front-end install 'pusher-js'
+
+#40 Include a useEffect-hook on the front-end in app.js
