@@ -1,13 +1,18 @@
 import './App.css';
 import Chat from './Chat';
 import Sidebar from './Sidebar';
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import Pusher from 'pusher-js';
+import axios from './axios';
 
 function App() {
-  useEffect(() => {
+  const [ messages, setMessages ] = useState([]);
 
-    
+  useEffect(() => {
+    axios.get('/messages/sync')
+      .then(response => {
+        setMessages(response.data);
+      });
   }, [])
 
   //Security Warning. Got to figure it out.
@@ -22,6 +27,8 @@ function App() {
     });
 
   }, [])
+
+  console.log(messages)
 
   return (
     <div className="app">
