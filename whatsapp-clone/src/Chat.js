@@ -5,7 +5,7 @@ import MicIcon from '@material-ui/icons/Mic';
 import React from 'react';
 import './Chat.css';
 
-function Chat() {
+function Chat({ messages }) {
     return (
         <div className="chat">
             <div className="chat__header">
@@ -30,17 +30,21 @@ function Chat() {
             </div>
 
             <div className="chat__body">
-                <p className="chat__message">
+                {/* THE DEVELOPMENTAL CODE */}
+                {/* <p className="chat__message">
                     <span className="chat__name">Alex </span>
                     This is a test message 
                     <span className="chat__timestamp">{new Date().toUTCString()}</span>                   
-                </p>
+                </p> */}
 
-                <p className="chat__message chat__receiver">
-                    <span className="chat__name">Alex </span>
-                    This is a test message 
-                    <span className="chat__timestamp">{new Date().toUTCString()}</span>                   
-                </p>
+                {/* THE DYNAMIC CODE */}
+                {messages.map((message) => (
+                    <p className={`chat__message ${message.received && "chat__receiver"}`}>
+                        <span className="chat__name">{message.name}</span>
+                        {message.message}
+                        <span className="chat__timestamp">{message.timestamp}</span>
+                    </p>
+                ))}
             </div>
 
             <div className="chat__footer">
@@ -52,7 +56,7 @@ function Chat() {
                 </form>
 
                 <MicIcon />
-            </div>           
+            </div>
         </div>
     )
 }

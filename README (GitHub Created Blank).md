@@ -85,4 +85,6 @@
 
 #43 useState is necessary on the front-end in app.js
 
-#44 The database now updates and Pusher indicates there's been an update by
+#44 The database now updates and Pusher indicates there's been an update from the database
+
+#45 Now, update the code to show the front end sending data to the back-end (i.e. so the messages are not static; pass through all the PROPS)
