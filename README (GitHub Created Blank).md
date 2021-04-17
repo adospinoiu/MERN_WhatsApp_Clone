@@ -87,4 +87,6 @@
 
 #44 The database now updates and Pusher indicates there's been an update from the database
 
-#45 Now, update the code to show the front end sending data to the back-end (i.e. so the messages are not static; pass through all the PROPS)
+#45 Now, update the code to show the front-end sending data to the back-end (i.e. so the messages are not static; pass through all the PROPS) and the message come back from the database
+
+#46 Now, update the front-end so that messages can by typed and SENT to the back-end
