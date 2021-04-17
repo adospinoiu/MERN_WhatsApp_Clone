@@ -90,3 +90,7 @@
 #45 Now, update the code to show the front-end sending data to the back-end (i.e. so the messages are not static; pass through all the PROPS) and the message come back from the database
 
 #46 Now, update the front-end so that messages can by typed and SENT to the back-end
+
+#47 Next include the axios call so that every-time a user types something, the application knows what to do
+
+#48 Fix the issue with the POST route not working from the submit on the front-end

@@ -2,14 +2,24 @@ import { Avatar, IconButton } from '@material-ui/core';
 import { AttachFile, MoreVert, SearchOutlined } from '@material-ui/icons';
 import InsertEmoticonIcon from '@material-ui/icons/InsertEmoticon';
 import MicIcon from '@material-ui/icons/Mic';
+import axios from 'axios';
 import React, { useState } from 'react';
 import './Chat.css';
 
 function Chat({ messages }) {
     const [ input, setInput ] = useState("");
 
-    const sendMessage = (e) => {
+    const sendMessage = async (e) => {
         e.preventDefault();
+
+        await axios.post("/messages/new", {
+            message: input,
+            name: "Alex",
+            timestamp: "Right now!",
+            received: false,
+        })
+
+        setInput("");
     };
 
     return (
