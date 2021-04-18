@@ -94,3 +94,13 @@
 #47 Next include the axios call so that every-time a user types something, the application knows what to do
 
 #48 Fix the issue with the POST route not working from the submit on the front-end
+
+#49 Deploying the back-end to Heroku. Followed THE STEPS:
+1) set-up the new application on Heroku DASHBOARD
+2) run the commands (in the terminal) that Heroku Dashboard indicates
+    - 'heroku login' to login in through the CLI
+    - 'git init' to create a git repo on the back-end folder
+    - 'heroku git:remote -a mern-whatsapp-backend-ad' to link the git repo you created with the app on Heroku Dashboard
+    - follow the three steps to add, commit, and push
+
+**You will know the back-end is deployed successfuly: On the Heroku Dashboard, click on the app, go to settings, go down to domain, click on the link it indicates. The test API end-point (i.e. 'Hello World') should be displayed
