@@ -12,14 +12,14 @@ function Chat({ messages }) {
     const sendMessage = async (e) => {
         e.preventDefault();
 
-        await axios.post("/messages/new", {
+        await axios.post('/messages/new', {
             message: input,
             name: "Alex",
             timestamp: "Right now!",
             received: false,
         })
 
-        setInput("");
+        setInput('');
     };
 
     return (
