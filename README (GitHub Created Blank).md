@@ -106,3 +106,16 @@
 **You will know the back-end is deployed successfuly: On the Heroku Dashboard, click on the app, go to settings, go down to domain, click on the link it indicates. The test API end-point (i.e. 'Hello World') should be displayed
 
 #50 Make sure to update the URL the axios called is made from (i.e. on the front-end). Update the URL to the URL indicated on the Heroku app where your app is deployed (i.e. the domains name)
+
+#51 On the front-end install firebase with 'npm i firebase-tools' in the terminal
+
+#52 On the front-end run 'firebase login' to login to the firebase CLI. (Similar to what was done for the heroku login CLI)
+
+#53 On the front-end run 'firebase init' to start the deploy process on firebase. Go through all the prompts
+    - choose Hosting
+    - for the public directory question MAKE SURE you indicate 'build'
+    - CRITICAL: 'yes' for single-page app question
+
+#54 On the front-end run 'npm run build' to build the production-version of the project. This is the folder/version that will be hosted live on the internet
+
+#55 On the front-end run 'firebase deploy' to deploy the front-end on firebase. Then go to the firebase dashboard; under 'hosting' check the domain name and click the link to see the app live
