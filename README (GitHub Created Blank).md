@@ -121,3 +121,6 @@
 #55 On the front-end run 'firebase deploy' to deploy the front-end on firebase. Then go to the firebase dashboard; under 'hosting' check the domain name and click the link to see the app live
 
 #56 The post-api does not work from the firebase front-end deploy
+    - IT WORKS!!! Mistake was on the chat component. I was importing axios from 'axios' instead of from './axios' (i.e. the axios.js file)
+
+#57 The app is now complete!!!
