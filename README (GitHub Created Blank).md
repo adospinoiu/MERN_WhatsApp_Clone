@@ -119,3 +119,5 @@
 #54 On the front-end run 'npm run build' to build the production-version of the project. This is the folder/version that will be hosted live on the internet
 
 #55 On the front-end run 'firebase deploy' to deploy the front-end on firebase. Then go to the firebase dashboard; under 'hosting' check the domain name and click the link to see the app live
+
+#56 The post-api does not work from the firebase front-end deploy
